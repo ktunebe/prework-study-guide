@@ -91,7 +91,12 @@
         <ul>
           <li>git status: checks what branch we are currently on</li>
           <li>git pull origin main: pulls base branch into local branch to ensure it is up to date</li>
-          <li>git checkout -b branch-name: creates a new branch and switches to it</li>
+          <li>git checkout: switch between branches</li>
+            <ul>
+              <li>git checkout -b branch-name: creates a new branch and switches to it</li>
+              <li>git checkout main: switches to main branch</li>
+              <li>Remember to use git pull origin main to ensure your current local branch is up to date.</li>
+            </ul>
           <li>git add -A: stages changes to be committed</li>
           <li>git commit -m "custom message here": commits changes locally</li>
           <li>git push origin name-of-your-new-branch: pushes up your changes to the remote repository</li>
